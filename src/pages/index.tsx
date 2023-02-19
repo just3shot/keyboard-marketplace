@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       </Head>
       <header className="mx-auto my-8 flex h-16 w-4/5 select-none flex-col items-center justify-center font-mono sm:h-32 lg:my-0 lg:h-24 lg:flex-row lg:justify-between">
         <div className="mx-auto flex h-full items-center justify-center text-2xl font-semibold text-red-500">
-          <Image alt="cat icon" src="/bugcat_reversed.png" width="40" height="40" className="mr-4" />
+          <Image alt="cat icon" src="/bugcat.png" width="40" height="40" className="mr-4" />
           <Link href="" scroll={false}>just3shot</Link>
         
         </div>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
               <Link href="https://docs.google.com/document/d/1vl-S56SAKvOvkHLCD4LuB5qup3myMa2z7MC55ShfDT4/edit?usp=sharing" target="_blank">
                 <div className="flex flex-col-reverse justify-center items-center gap-y-8 lg:gap-x-20 bg-gray-100  rounded-2xl p-8 shadow-2xl lg:flex-row hover:bg-sky-100">
                   <div className="text-center lg:text-left">
-                    <h1 className="text-xl mb-8">Informaton Systems Capstone Project</h1>
+                    <h1 className="text-xl mb-8">Information Systems Capstone Project</h1>
                     <ul className="text-left">
                       <li>Worked with Alt.Native to build an end-to-end refashion service platform</li>
                       <br />
