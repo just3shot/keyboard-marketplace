@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             <h1>
               <span className=" text-red-900 text-4xl text-bold">Hi, I am</span>
               <br />
-              <span className=" text-red-400 text-4xl text-bold">Aaron Tan</span>
+              <span className=" text-red-400 text-4xl text-bold whitespace-nowrap">Aaron Tan</span>
             </h1>
             <br />
             <h2>
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="py-4 items-center justify-center text-center bg-red-400 h-full text-white">
+        <div className="mx-auto py-4 items-center justify-center text-center bg-red-400 h-full text-white">
           
           <div className="mx-auto w-6/12 mb-8">
             <h1 id="about" className="mx-auto my-8 text-3xl">About Me</h1>
@@ -87,13 +87,14 @@ const Home: NextPage = () => {
                 <div className="flex flex-col-reverse justify-center items-center gap-y-8 lg:gap-x-20 bg-gray-100  rounded-2xl p-8 shadow-2xl lg:flex-row hover:bg-sky-100">
                   <div className="text-center lg:text-left">
                     <h1 className="text-xl mb-8">Informaton Systems Capstone Project</h1>
-                    <ul>
-                      <li className="">Worked with Alt.Native to build an end-to-end refashion service platform</li>
-                      <li className="">Collaborated in a team of 6 where and worked mostly on Front-End</li>
+                    <ul className="text-left">
+                      <li>Worked with Alt.Native to build an end-to-end refashion service platform</li>
+                      <br />
+                      <li>Collaborated in a team of 6 where and worked mostly on Front-End</li>
                     </ul>
                     <br />
                     <h1 className="text-xl mb-8">Main Technology Used</h1>
-                    <div className="flex gap-x-20 w-16 h-16">
+                    <div className="flex gap-x-4 w-16 h-16 lg:gap-x-20">
                       <Image alt="Spring Boot Logo" src={SpringBootLogo} />
                       <Image alt="React Logo" src={ReactLogo} />
                       <Image alt="React MUI Logo" src={ReactMUILogo} />
@@ -101,7 +102,7 @@ const Home: NextPage = () => {
 
                   </div>
                   <div>
-                    <Image alt="Alt.native Logo" src={AltNativeLogo} className="w-64 h-64 lg:w-40 lg:h-40" />
+                    <Image alt="Alt.native Logo" src={AltNativeLogo} className="w-60 h-60 lg:w-40 lg:h-40" />
                   </div>
                 </div>
               </Link>
@@ -110,20 +111,20 @@ const Home: NextPage = () => {
                 <div className="flex flex-col-reverse justify-center items-center gap-y-8 lg:gap-x-20 bg-gray-100  rounded-2xl p-8 shadow-2xl lg:flex-row hover:bg-sky-100">
                   <div className="text-center lg:text-left">
                     <h1 className="text-xl mb-8">Bang! The Dice Game</h1>
-                    <ul>
-                      <li className="">A web application trying to make a clone of the board game Bang! the Dice Game</li>
-                      <li className="">Currently only works on local multiplayer</li>
+                    <ul className="text-left">
+                      <li>A web application trying to make a clone of the board game Bang! the Dice Game</li>
+                      <li>Currently only works on local multiplayer</li>
                     </ul>
                     <br />
                     <h1 className="text-xl mb-8">Main Technology Used</h1>
-                    <div className="flex gap-x-20 w-16 h-16">
+                    <div className="flex gap-x-4 w-16 h-16 lg:gap-x-20">
                       <Image alt="React Logo" src={ReactLogo} />
                       <Image alt="React MUI Logo" src={ReactMUILogo} />
                     </div>
 
                   </div>
                   <div>
-                    <Image alt="Alt.native Logo" src={BangDiceGameLogo} className="w-48 h-64 lg:w-32 lg:h-44" />
+                    <Image alt="Bang Dice Game Logo" src={BangDiceGameLogo} className="w-48 h-64 lg:w-32 lg:h-44" />
                   </div>
                 </div>
               </Link>
